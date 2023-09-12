@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcf931cf-7027-44b6-9c47-23b736264162" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableRedirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/EmployeeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/EmployeeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,8 +62,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/Code/Java/Laboratory-1/WebAppBorysevych_1_2_3",
@@ -115,7 +126,9 @@
       <updated>1694465189128</updated>
       <workItem from="1694465190230" duration="189000" />
       <workItem from="1694465411779" duration="458000" />
-      <workItem from="1694465886610" duration="714000" />
+      <workItem from="1694465886610" duration="897000" />
+      <workItem from="1694518606535" duration="88000" />
+      <workItem from="1694537395651" duration="7100000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,6 @@
-<%@ page import="info.webappborysevych_1_2_3.Employee" %>
+<%@ page import="info.webappborysevych_1_2_3.enmployees.Employee" %>
 <%@ page import="java.util.List" %>
-<%@ page import="info.webappborysevych_1_2_3.EmployeeList" %><%--
-  Created by IntelliJ IDEA.
-  User: borus
-  Date: 9/11/2023
-  Time: 11:49 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="info.webappborysevych_1_2_3.enmployees.EmployeeList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -14,24 +8,24 @@
 </head>
 <body>
 <h1>Hello, Page With Table</h1>
-<table>
+<table style="border: 1px solid black;">
     <tr>
-        <th>Name</th>
-        <th>Birthday</th>
-        <th>Gender</th>
-        <th>Salary</th>
-        <th>Programing Language</th>
+        <th style="border: 1px solid black;">Name</th>
+        <th style="border: 1px solid black;">Birthday</th>
+        <th style="border: 1px solid black;">Gender</th>
+        <th style="border: 1px solid black;">Salary</th>
+        <th style="border: 1px solid black;">Programing Language</th>
     </tr>
     <%
         List<Employee> employees = EmployeeList.getInstance();
         for (Employee employee : employees) {
     %>
     <tr>
-        <td style="padding: 3px"><%=employee.getName()%></td>
-        <td style="padding: 3px"><%=employee.getBirthday()%></td>
-        <td style="padding: 3px"><%=employee.getGender()%></td>
-        <td style="padding: 3px"><%=employee.getSalary()%></td>
-        <td style="padding: 3px"><%=employee.getProgramLanguage()%></td>
+        <td style="border: 1px solid black;"><%=employee.getName()%></td>
+        <td style="border: 1px solid black;"><%=employee.getBirthday()%></td>
+        <td style="border: 1px solid black;"><%=employee.getGender()%></td>
+        <td style="border: 1px solid black;"><%=employee.getSalary()%></td>
+        <td style="border: 1px solid black;"><%=employee.getProgramLanguage()%></td>
     </tr>
     <%
         }
