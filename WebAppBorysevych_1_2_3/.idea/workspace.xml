@@ -9,16 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcf931cf-7027-44b6-9c47-23b736264162" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableRedirectServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/table.html" afterDir="false" />
+    <list default="true" id="61052c4c-d742-4c6d-9348-644e195826c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employee/EmployeeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/java/info/webappborysevych_1_1/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/java/info/webappborysevych_1_1/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/EmployeeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/EmployeeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/enmployees/EmployeeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableRedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableRedirectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -45,17 +49,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2VGb6ODL03IBZH5aJDZBAKNABse" />
+  <component name="ProjectId" id="2VLNEJwFXKP9ka0tZF2SabyMiW6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,7 +62,6 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/Code/Java/Laboratory-1/WebAppBorysevych_1_2_3",
@@ -73,11 +69,19 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Java\WebAppBorysevych_1_2_3\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.13" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WebAppBorysevych_1_2_3_war_exploded/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <deployment>
         <artifact name="WebAppBorysevych_1_2_3:war exploded">
           <settings>
@@ -86,13 +90,61 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b1a51876-058b-4f7f-8133-1e70ec3c7798" />
+        <option name="BASE_DIRECTORY_NAME" value="5dcdd191-b926-4131-b521-5fb848cbfebb" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63700" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -119,16 +171,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcf931cf-7027-44b6-9c47-23b736264162" name="Changes" comment="" />
-      <created>1694465189128</created>
+      <changelist id="61052c4c-d742-4c6d-9348-644e195826c6" name="Changes" comment="" />
+      <created>1694611289374</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694465189128</updated>
-      <workItem from="1694465190230" duration="189000" />
-      <workItem from="1694465411779" duration="458000" />
-      <workItem from="1694465886610" duration="897000" />
-      <workItem from="1694518606535" duration="88000" />
-      <workItem from="1694537395651" duration="7100000" />
+      <updated>1694611289374</updated>
+      <workItem from="1694611290344" duration="950000" />
+      <workItem from="1694673147426" duration="7000" />
+      <workItem from="1694676944953" duration="193000" />
+      <workItem from="1694677168597" duration="3000" />
+      <workItem from="1694682494457" duration="30000" />
+      <workItem from="1694684289214" duration="574000" />
     </task>
     <servers />
   </component>

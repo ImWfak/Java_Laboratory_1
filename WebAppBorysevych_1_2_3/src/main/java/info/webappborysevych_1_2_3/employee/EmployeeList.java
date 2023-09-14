@@ -1,4 +1,4 @@
-package info.webappborysevych_1_2_3.enmployees;
+package info.webappborysevych_1_2_3.employee;
 
 import java.util.ArrayList;
 

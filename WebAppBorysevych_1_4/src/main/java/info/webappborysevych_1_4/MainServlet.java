@@ -1,11 +1,11 @@
-package info.webappborysevych_1_2_3.servlets;
+package info.webappborysevych_1_4;
 
-import java.io.*;
-import javax.servlet.http.*;
 import javax.servlet.annotation.*;
+import javax.servlet.http.*;
+import java.io.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+public class MainServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
     }

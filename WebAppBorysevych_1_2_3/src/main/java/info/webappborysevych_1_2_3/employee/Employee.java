@@ -1,4 +1,4 @@
-package info.webappborysevych_1_2_3.enmployees;
+package info.webappborysevych_1_2_3.employee;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
@@ -10,8 +10,6 @@ public class Employee {
     private final boolean gender;
     private final double salary;
     private final int programLanguage;
-
-
     public Employee(String name, String birthday, String gender, double salary, String programLanguage) {
         employeeNum++;
         int id = employeeNum;
@@ -30,35 +28,27 @@ public class Employee {
                 this.programLanguage = 3;
         }
     }
-
     public String getName() {
         return name;
     }
-
     public String getBirthday() {
         return birthday.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
-
     public String getGender() {
         return gender ? "male" : "female";
     }
-
     public boolean isGender() {
         return gender;
     }
-
     public String getSalaryCurrency() {
         return String.format("%.2f UAH", salary);
     }
-
     public String getSalaryStr() {
         return String.format("%.2f UAH", salary);
     }
-
     public double getSalary() {
         return salary;
     }
-
     public String getProgramLanguage() {
         String plName = "";
         switch (programLanguage) {
