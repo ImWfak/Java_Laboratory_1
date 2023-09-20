@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>tableFroward</servlet-name>
+        <servlet-name>tableForward</servlet-name>
         <servlet-class>info.webappborysevych_1_2_3.servlets.TableForwardServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>tableFroward</servlet-name>
+        <servlet-name>tableForward</servlet-name>
         <url-pattern>/table_forward</url-pattern>
     </servlet-mapping>
     <servlet>
