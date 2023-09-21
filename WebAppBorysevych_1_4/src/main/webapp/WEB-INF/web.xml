@@ -3,34 +3,36 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    
     <welcome-file-list>
-        <welcome-file>BorysevychL1_WEB_start.html</welcome-file>
+        <welcome-file>BorysevychL1_WEB_Start.html</welcome-file>
     </welcome-file-list>
 
     <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>info.webappborysevych_1_4.servlet.LoginServlet</servlet-class>
+        <servlet-name>CheckLoginServlet</servlet-name>
+        <servlet-class>info.webappborysevych_1_4.servlets.CheckLoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
+        <servlet-name>CheckLoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>JSP_Servlet</servlet-name>
-        <servlet-class>info.webappborysevych_1_4.servlet.JSP_Servlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>JSP_Servlet</servlet-name>
-        <url-pattern>/JSP_servlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>JSTL_Servlet</servlet-name>
-        <servlet-class>info.webappborysevych_1_4.servlet.JSTL_Servlet</servlet-class>
+        <servlet-name>ShowJspJstlServlet</servlet-name>
+        <servlet-class>info.webappborysevych_1_4.servlets.ShowJspJstlServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>JSTL_Servlet</servlet-name>
-        <url-pattern>/JSTL_servlet</url-pattern>
+        <servlet-name>ShowJspJstlServlet</servlet-name>
+        <url-pattern>/show_jsp_jstl</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowJspServlet</servlet-name>
+        <servlet-class>info.webappborysevych_1_4.servlets.ShowJspServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowJspServlet</servlet-name>
+        <url-pattern>/show_jsp</url-pattern>
+    </servlet-mapping>
+
 </web-app>

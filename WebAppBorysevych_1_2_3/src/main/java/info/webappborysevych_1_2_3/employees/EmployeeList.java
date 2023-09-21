@@ -1,8 +1,10 @@
-package info.webappborysevych_1_4.employee;
+package info.webappborysevych_1_2_3.employees;
 
 import java.util.ArrayList;
+import java.io.Serial;
 
 public class EmployeeList extends ArrayList<Employee> {
+    @Serial
     private static final long serialVersionUID = 1L;
     private static EmployeeList instance;
     private EmployeeList() {

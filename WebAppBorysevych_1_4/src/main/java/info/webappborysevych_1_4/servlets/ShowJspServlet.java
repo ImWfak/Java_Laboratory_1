@@ -1,0 +1,22 @@
+package info.webappborysevych_1_4.servlets;
+
+import info.webappborysevych_1_4.employees.EmployeeList;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@WebServlet(name = "ShowJspServlet", value = "/show_jsp")
+public class ShowJspServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setAttribute("employees", EmployeeList.getInstance());
+        request.getServletContext().getRequestDispatcher("/Table.jsp").forward(request, response);
+    }
+    @Override
+    protected void doPost (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doGet(request, response);
+    }
+}

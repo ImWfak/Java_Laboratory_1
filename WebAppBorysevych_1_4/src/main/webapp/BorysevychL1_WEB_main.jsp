@@ -6,15 +6,15 @@
     <title>Title</title>
 </head>
 <body>
-<%@ include file="menu.jsp"%>
+<%@ include file="Menu.jsp"%>
 <h1>Hello, JSP with EL and JSTL!</h1>
 <br>
 <br>
 <h2>Borysevych Alex Sergiovich</h2>
 <br>
-<label>Today: <%=DateTimeFormatter.ofPattern("dd.MM.yyyy").format(LocalDate.now())%></label>
+<label>Today: <%= DateTimeFormatter.ofPattern("dd.MM.yyyy").format(LocalDate.now()) %></label>
 <footer>
-    <%@ include file="footer.jsp"%>
+    <%@ include file="Footer.jsp"%>
 </footer>
 </body>
 </html>

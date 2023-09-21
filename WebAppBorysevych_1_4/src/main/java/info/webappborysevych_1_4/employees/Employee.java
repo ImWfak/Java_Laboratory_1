@@ -1,8 +1,7 @@
-package info.webappborysevych_1_4.employee;
+package info.webappborysevych_1_4.employees;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
-import java.time.Period;
 
 public class Employee {
     private static int employeeNum = 0;
@@ -29,17 +28,27 @@ public class Employee {
                 this.programLanguage = 3;
         }
     }
-    public boolean getYoungestEmployee(){
-        Period period = Period.between(birthday, LocalDate.now());
-        return period.getYears() >= 20 && period.getYears() <= 30;
+    public String getName() {
+        return name;
     }
-    public String getName() {return name;}
-    public String getBirthday() {return birthday.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));}
-    public String getGender() {return gender ? "male" : "female";}
-    public boolean isGender() {return gender;}
-    public String getSalaryCurrency() {return String.format("%.2f UAH", salary);}
-    public String getSalaryStr() {return String.format("%.2f UAH", salary);}
-    public double getSalary() {return salary;}
+    public String getBirthday() {
+        return birthday.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    }
+    public String getGender() {
+        return gender ? "male" : "female";
+    }
+    public boolean isGender() {
+        return gender;
+    }
+    public String getSalaryCurrency() {
+        return String.format("%.2f UAH", salary);
+    }
+    public String getSalaryStr() {
+        return String.format("%.2f UAH", salary);
+    }
+    public double getSalary() {
+        return salary;
+    }
     public String getProgramLanguage() {
         String plName = "";
         switch (programLanguage) {

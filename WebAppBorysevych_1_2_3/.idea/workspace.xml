@@ -9,36 +9,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61052c4c-d742-4c6d-9348-644e195826c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employee/EmployeeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/JSP_Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/JSTL_Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_start.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/JSPL_table.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/table.jsp" afterDir="false" />
+    <list default="true" id="389cd3c2-2149-4184-a8c9-d2962a6b6676" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employees/EmployeeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/ForwardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/RedirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlets/CheckLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlets/ShowJspJstlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlets/ShowJspServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/Jstl_table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/java/info/webappborysevych_1_1/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/java/info/webappborysevych_1_1/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_1/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employee/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/employee/EmployeeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/MainServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableForwardServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/webappborysevych_1_2_3/servlets/TableRedirectServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/MainServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_start.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employee/EmployeeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/employees/EmployeeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/JSP_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/JSTL_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/java/info/webappborysevych_1_4/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/BorysevychL1_WEB_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/JSPL_table.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAppBorysevych_1_4/src/main/webapp/Table.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -52,10 +77,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2VLNEJwFXKP9ka0tZF2SabyMiW6" />
+  <component name="ProjectId" id="2Vg2g29yaF3zSEvl2VaYQ0VDJFt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,23 +102,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/Java/Laboratory-1/WebAppBorysevych_1_2_3&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\Java\WebAppBorysevych_1_2_3\src\main\webapp" />
-    </key>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0">
     <configuration name="Tomcat 10.1.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.13" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="WebAppBorysevych_1_2_3:war exploded">
           <settings>
@@ -92,7 +121,8 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="5dcdd191-b926-4131-b521-5fb848cbfebb" />
+        <option name="BASE_DIRECTORY_NAME" value="113b3a1d-cb1e-4460-98f3-e8042f2bddaa" />
+        <option name="HTTP_PORT" value="8100" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -100,7 +130,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63700" />
+        <option name="DEBUG_PORT" value="54451" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -169,30 +199,114 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="WebAppBorysevych_1_2_3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WebAppBorysevych_1_2_3_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dd0260ad-7b5d-4b9b-8c71-1076066bf8da" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57654" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebAppBorysevych_1_2_3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 10.1.13" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61052c4c-d742-4c6d-9348-644e195826c6" name="Changes" comment="" />
-      <created>1694611289374</created>
+      <changelist id="389cd3c2-2149-4184-a8c9-d2962a6b6676" name="Changes" comment="" />
+      <created>1695243510142</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694611289374</updated>
-      <workItem from="1694611290344" duration="950000" />
-      <workItem from="1694673147426" duration="7000" />
-      <workItem from="1694676944953" duration="193000" />
-      <workItem from="1694677168597" duration="3000" />
-      <workItem from="1694682494457" duration="30000" />
-      <workItem from="1694684289214" duration="574000" />
-      <workItem from="1694696377673" duration="1058000" />
-      <workItem from="1694708746886" duration="4000" />
-      <workItem from="1695135345374" duration="16000" />
-      <workItem from="1695137935589" duration="77000" />
-      <workItem from="1695138168876" duration="18000" />
-      <workItem from="1695139025331" duration="15000" />
-      <workItem from="1695139053568" duration="10000" />
-      <workItem from="1695140583096" duration="11000" />
-      <workItem from="1695231022569" duration="6000" />
+      <updated>1695243510142</updated>
+      <workItem from="1695243511139" duration="763000" />
+      <workItem from="1695244287099" duration="2875000" />
+      <workItem from="1695247173098" duration="1337000" />
+      <workItem from="1695254529072" duration="7000" />
+      <workItem from="1695254875250" duration="6000" />
+      <workItem from="1695255046029" duration="6000" />
+      <workItem from="1695255799197" duration="10000" />
     </task>
     <servers />
   </component>

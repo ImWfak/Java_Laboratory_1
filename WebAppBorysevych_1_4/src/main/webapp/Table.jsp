@@ -1,6 +1,5 @@
-<%@ page import="info.webappborysevych_1_4.employee.Employee" %>
-<%@ page import="info.webappborysevych_1_4.employee.EmployeeList" %>
-<%@ page import="java.util.List" %>
+<%@ page import="info.webappborysevych_1_4.employees.Employee" %>
+<%@ page import="info.webappborysevych_1_4.employees.EmployeeList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
